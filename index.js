@@ -76,7 +76,7 @@ function init() {
         .then((data) => {
             return genMark(data);
         })
-        .then(markDown => writeToFile('README.md', markDown));
+        .then(markDown => writeToFile('README2.md', markDown));
 }
 
 init();

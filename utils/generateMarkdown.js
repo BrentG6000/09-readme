@@ -118,35 +118,35 @@ ${ data.description }
 
 ## Table of Contents
 
-[Installation](https://github.com/${ data.username }/${ data.title }#Installation)
+[Installation](#installation)
 
-[Usage](https://github.com/${ data.username }/${ data.title }#Usage)
+[Usage](#usage)
 
-[How to Contribute](https://github.com/${ data.username }/${ data.title }#How-to-contribute)
+[How to Contribute](#contribute)
 
-[Tests](https://github.com/${ data.username }/${ data.title }#Tests)
+[Tests](#tests)
 
-[Questions](https://github.com/${ data.username }/${ data.title }#Questions)
+[Questions](#questions)
 
-## Installation
+## Installation <a name="installation"></a>
 
 ${ data.installation }
 
-## Usage
+## Usage <a name="usage"></a>
 
 ${ data.usage }
 
 ${renderLicenseSection(data.license)}
 
-## How to Contribute
+## How to Contribute <a name="contribute"></a>
 
 ${ data.contribute }
 
-## Tests
+## Tests <a name="tests"></a>
 
 ${ data.test }
 
-## Questions
+## Questions <a name="questions"></a>
 
 If you have any questions, email me at ${ data.email }
 
